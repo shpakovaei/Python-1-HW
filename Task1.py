@@ -3,6 +3,12 @@
 
 number = int (input('Введите номер дня недели: '))
 
-if (number == 6 or number == 7):
-    print ('Этот день выходной')
-else: print ('Этот день рабочий')
+if (number >= 1 and number <= 7):
+    if (number == 6 or number == 7):
+
+        print ('Этот день выходной')
+    else: 
+        print ('Этот день рабочий')
+
+else:
+    print ('Такого дня недели не существует')

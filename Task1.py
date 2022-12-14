@@ -6,4 +6,3 @@ number = int (input('Введите номер дня недели: '))
 if (number == 6 or number == 7):
     print ('Этот день выходной')
 else: print ('Этот день рабочий')
-
